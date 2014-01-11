@@ -17,7 +17,7 @@ gem 'coffee-rails', '~> 4.0.0'
 gem 'jquery-rails'
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
-
+gem 'turbolinks'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'
@@ -37,6 +37,10 @@ end
 
 # add extra gems at end of file
 gem 'bcrypt-ruby', '3.0.1'
+
+# Format the website with the bootstrap gem
+gem 'bootstrap-sass', '~> 3.0.2.0'
+gem 'bootstrap_form', "~> 1.0.0", :git => "git://github.com/ryancheu/bootstrap_form.git"
 
 gem 'font-awesome-rails'
 

@@ -1,3 +1,9 @@
+GIT
+  remote: git://github.com/ryancheu/bootstrap_form.git
+  revision: 168c1d48c699415e8d0ac89fd5f374ed8f2753a5
+  specs:
+    bootstrap_form (1.0.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -28,6 +34,8 @@ GEM
     arel (4.0.1)
     atomic (1.1.14)
     bcrypt-ruby (3.0.1)
+    bootstrap-sass (3.0.2.1)
+      sass (~> 3.2)
     builder (3.1.4)
     coffee-rails (4.0.1)
       coffee-script (>= 2.2.0)
@@ -104,6 +112,8 @@ GEM
     treetop (1.4.15)
       polyglot
       polyglot (>= 0.3.1)
+    turbolinks (2.2.0)
+      coffee-rails
     tzinfo (0.3.38)
     uglifier (2.4.0)
       execjs (>= 0.3.0)
@@ -114,6 +124,8 @@ PLATFORMS
 
 DEPENDENCIES
   bcrypt-ruby (= 3.0.1)
+  bootstrap-sass (~> 3.0.2.0)
+  bootstrap_form (~> 1.0.0)!
   coffee-rails (~> 4.0.0)
   font-awesome-rails
   jbuilder (~> 1.2)
@@ -124,4 +136,5 @@ DEPENDENCIES
   sdoc
   simple_form
   sqlite3
+  turbolinks
   uglifier (>= 1.3.0)
